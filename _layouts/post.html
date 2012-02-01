@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<div class="post-content">
+	<h2>{{ page.title }}</h2>
+	<span id="publish-date">Published: {{ page.date }}</span>
+	{{ content }}
+</div>
+
+{% include disqus.html %}
